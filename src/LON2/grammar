@@ -12,13 +12,4 @@ RPAREN '\)'
 <nums> **= <NUM>
 %
 
-Lon
-%%%
-    public void $run() {
-        System.out.print("( ");
-        for (Token tok: nums.numList) {
-            System.out.print(tok.toString() + " ");
-        }
-        System.out.println(")");
-    }
-%%%
+%include code
